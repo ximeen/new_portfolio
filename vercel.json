@@ -1,7 +1,7 @@
 {
     "rewrites":  [
-      {"source": "/", "destination": "/About.js"},
-      {"source": "/Projects", "destination": "/Projects.js"}
+      {"source": "/", "destination": "/About.tsx"},
+      {"source": "/Projects", "destination": "/Projects.tsx"}
     ]
 
   }
