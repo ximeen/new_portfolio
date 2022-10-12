@@ -1,6 +1,7 @@
 {
     "rewrites":  [
-      {"source": "/", "destination": "/"},
-      {"source": "./src/components/Projects.tsx", "destination": "/Projects"}
+      {"source": "/", "destination": "/Sobre"},
+      {"source": "/Projects", "destination": "/Projects.js"}
     ]
+
   }
