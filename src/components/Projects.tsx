@@ -1,5 +1,10 @@
+import { Header } from "./Header";
+
 export function Projects(){
     return(
-        <h1></h1>
+        <>
+            <Header/>
+            
+        </>
     )
 }
