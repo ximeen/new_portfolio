@@ -1,21 +1,12 @@
 import { List, X } from 'phosphor-react'
 import { useState } from 'react'
+import { ListItems } from './Utils/Database'
 import Logo from '/Logo.svg'
 
 
 export function Header(){
 
-    const ListItems = [
-        {
-            name:'Sobre',
-            route: '/'
-        },
-        {
-            name:'Projetos',
-            route: '/Projects'
-        }
 
-    ]
 
     const [showNav, setShowNav] = useState(false)
     const handleClick = ()=> setShowNav(!showNav)
