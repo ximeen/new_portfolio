@@ -25,3 +25,14 @@
         Esta é a página inicial do meu projeto, separei ela em dois componentes, a parte do Header onde irei reaproveitar no menu de projetos, e outro componente para a parte sobre mim.
     </b>
 <p>
+
+
+## Menu Hamburger e Responsivo
+
+![Menu Hamburger e Responsivo](/public/web_portfolio_mobile.jpg)
+
+<p>
+    <b>
+        Na pagina inicial, quando o tamanho da for mobile, decidi colocar um menu hamburguer com um background com aquele efeito de blur que tanto gostamos.
+    </b>
+<p>
