@@ -11,7 +11,7 @@ export function Header(){
                 <ul className='flex gap-4'>
                     {['Sobre', 'Projetos'].map((item)=>{
                         return(
-                            <li key={item} className='hover:bg-cian-500 hover:rounded-xl hover:text-gray-900 transition duration-300 rounded-xl py-1 px-4 cursor-pointer '>{item}</li>
+                            <li key={item} className='hover:bg-cian-500 hover:rounded-xl hover:text-gray-900 transition duration-500 rounded-xl py-1 px-4 cursor-pointer font-semibold'>{item}</li>
                         )
                     })}
                 </ul>
