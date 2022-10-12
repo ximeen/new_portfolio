@@ -3,7 +3,7 @@
 <p>
     <em>
         Esse é meu novo portfolio de Web engineer,
-        criei no Design no Figma do zero, 
+        criei o Design no Figma do zero, 
         partindo para o código resolovi utilizar React com typescript e Tailwindcss, também algumas libs como o Radix e React Router DOM!
     </em>
 <p>

@@ -16,7 +16,7 @@ export function Header(){
     ]
 
     return(
-        <header className='flex justify-around mt-5 py-5 items-center'>
+        <header className='md:flex justify-around mt-5 py-5 items-center'>
             <div>
                 <img src={Logo} alt="logo escrito GX" />
             </div>
