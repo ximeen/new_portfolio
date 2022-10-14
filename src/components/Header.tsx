@@ -37,11 +37,11 @@ export function Header(){
 
             </nav>
 
-            <div className='md:hidden fixed right-6 z-10' onClick={handleClick}>
+            <div className='md:hidden fixed right-6 z-50' onClick={handleClick}>
                     {!showNav ?  <List size={32} className='text-gray-100' /> : <X size={32} className='text-gray-100' />}
                
             </div>
-            <ul className={!showNav ? 'hidden' : 'fixed w-[100%] px-8 py-10  bg-black-20/40 backdrop-blur-sm rounded-lg md:hidden'}>
+            <ul className={!showNav ? 'hidden' : 'fixed top-0 w-[100%] px-8 py-10 backdrop-blur-sm rounded-lg md:hidden z-40'}>
 
                 {ListItems.map((item)=>{
                     return(

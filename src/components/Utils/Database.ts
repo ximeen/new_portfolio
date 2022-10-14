@@ -12,11 +12,11 @@ export const ListProjects = [
     {
         name: 'Netflix Clone',
         description: 'Esse projeto tem um tempo, foi uma das minhas primeiras aplicações em react, fiz em uma aula do bonieky lacerda, nela utilizei react, javascript padrão, scss e consumimos a API do the movie database, que foi incrivel.',
-        banner: '/public/web_portfolio_neflix_clone.png'
+        banner: '/public/web_portfolio_netflix_clone.png'
 
     },
     {
-        name: 'Landing page natalina',
+        name: 'Natalino',
         description: 'Neste projeto apenas decidi fazer uma aplicação para treinar minhas habilidades, apenas uma landing page, porém bem moderna e com a opção de mudar o tema da aplicação o que foi muito incrivel de fazer nele utilizei apenas o javascript vanilla, usando a ideia de components e inserindo o HTML pelo javascript.',
         banner: '/public/web_portfolio_natalino.png'
 
@@ -29,12 +29,7 @@ export const ListItems = [
         route: '/'
     },
     {
-        name:'Projetos',
+        name:'Projetos e Contatos',
         route: '/Projects'
     },
-    {
-        name: 'Contatos',
-        route: '/Projects/Contacts'
-    }
-
 ]
