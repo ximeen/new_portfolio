@@ -2,7 +2,7 @@ export const ListProjects = [
     {
         name: 'Ignite Lab',
         description: 'Esse foi um projeto desenvolvido no evento ignite Lab, feito pela rocketseat neste projeto utilizei react typescript e tailwind também utilizei graphql foi meu primeiro contato com graphql, gostei  bastante da experiencia.',
-        banner: '/public/web_portfolio_ignite_lab.png'
+        banner: '../../../public/web_portfolio_ignite_lab.png'
     },
     {
         name: 'Nlw eSports',

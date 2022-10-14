@@ -1,7 +1,7 @@
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { ListProjects } from './Utils/Database'
-import circle from '/circulos.svg'
+import circle from '../../public/circulos.svg'
 
 
 export function Projects(){
