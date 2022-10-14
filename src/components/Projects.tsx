@@ -9,7 +9,7 @@ export function Projects(){
     return(
         <>
             <Header/>
-            <section className="h-[334px] lg:flex justify-center items-center z-50">
+            <section className="lg:h-[334px] lg:flex justify-center items-center z-50">
                 <div className="flex px-8 gap-12 flex-col lg:flex-row items-center py-10 lg:py-0 " >
                     {ListProjects.map((item)=>{
                         return(
