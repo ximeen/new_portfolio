@@ -1,16 +1,11 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-
-import { About } from "./components/About";
-import { Projects } from './components/Projects';
+import { MyRoutes } from "./components/Utils/MyRoutes";
+import * as Dialog from '@radix-ui/react-dialog'
+import { Projects } from "./components/Projects";
+import { RenderModal } from "./components/CreateModal";
 
 
 export function App(){
   return(
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<About/>} />
-        <Route path='/Projects' element={<Projects/>} />
-      </Routes>
-    </BrowserRouter>
+      <MyRoutes/>
   )
 }
