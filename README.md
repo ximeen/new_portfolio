@@ -33,7 +33,7 @@
 
 <p>
     <b>
-        Na pagina inicial, quando o tamanho da for mobile, decidi colocar um menu hamburguer com um background com aquele efeito de blur que tanto gostamos.
+        Na pagina inicial, quando o tamanho da tela for mobile, coloquei um menu hamburguer com um background com aquele efeito de blur que tanto gostamos.
     </b>
 <p>
 
