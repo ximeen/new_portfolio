@@ -20,10 +20,10 @@ export function Projects(){
                                             
                                                 <div className="cursor-pointer relative h-64 w-56 flex justify-center items-center text-center group">
                                                     <div className="h-full w-full">
-                                                        <img className=" h-full w-full object-cover rounded-lg brightness-[.3] group-hover:brightness-[.3] group-hover:transition-all group-hover:duration-700" src={item.banner} alt="" />
+                                                        <img className=" h-full w-full object-cover rounded-lg brightness-75 group-hover:brightness-[.3] group-hover:transition-all group-hover:duration-700" src={item.banner} alt="" />
                                                     </div>
 
-                                                    <div className="absolute justify-center w-full h-full flex flex-col gap-4 items-center  transition-all duration-500 ">
+                                                    <div className="absolute justify-center w-full h-full flex flex-col gap-4 items-center opacity-0 hover:opacity-100 transition-all duration-500 ">
 
                                                         <span className="text-gray-100 font-semibold text-lg">{item.name}</span>
 

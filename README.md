@@ -36,3 +36,14 @@
         Na pagina inicial, quando o tamanho da for mobile, decidi colocar um menu hamburguer com um background com aquele efeito de blur que tanto gostamos.
     </b>
 <p>
+
+
+## Modal
+
+![Modal da aplicação](/public/print_modal.png)
+
+<p>
+    <b>
+        Para criação mo modal interativo eu usei uma lib chamada radixUi, com ela temos a inclusão da acessibilidade de uma forma melhor e menos trabalhosa do que criar do zero com o HTML.
+    <b>
+</p>
